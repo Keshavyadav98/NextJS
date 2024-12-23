@@ -14,8 +14,26 @@
   }
 }
 
+@font-face {
+  font-family: 'Bricolage';
+  src: url('/path-to-font/Bricolage-Regular.woff2') format('woff2'),
+       url('/path-to-font/Bricolage-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

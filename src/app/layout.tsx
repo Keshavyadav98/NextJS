@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+<link href="https://fonts.googleapis.com/css2?family=Bricolage:wght@400;700&display=swap" rel="stylesheet"></link>
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
