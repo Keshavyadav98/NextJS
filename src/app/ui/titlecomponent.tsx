@@ -8,7 +8,6 @@ interface TitleComponentPageProps {
   }
 
 const Titlecomponentpage:NextPage<TitleComponentPageProps> = ({title , titleName, which, colorCode}) => {
-    let color = colorCode;
     return(
         <div className="flex justify-left gap-4 lg:gap-10 mb-8 flex-col md:flex-row md:items-center aos-init aos-animate" data-aos="fade-right">
                             <div className="border-[1px] border-black w-[28%]"></div>
@@ -19,7 +18,7 @@ const Titlecomponentpage:NextPage<TitleComponentPageProps> = ({title , titleName
                                 <h2 className="md:text-6xl text-5xl font-bold mb-8 font-bricolage"
                                 >{titleName}
                                     <br />
-                                    <span className={color}>
+                                    <span className={colorCode}>
                                         {which}
                                     </span>
                                 </h2>

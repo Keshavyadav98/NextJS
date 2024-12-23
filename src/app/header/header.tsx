@@ -1,13 +1,14 @@
 import { NextPage } from "next";
 import Image from "next/image";
 import logo from "@/../public/cardImage/mainLogo.webp";
+import Link from "next/link";
 
 const Headerpage: NextPage = () => {
   return (
     <header className="top-0 sticky z-50 bg-main border-dashed flex items-center bg-[#f5edd9] justify-around py-[15px] px-4 lg:px-6">
       <div className="max-w-[95%] w-full md:gap-16 gap-0 mx-auto flex md:justify-center justify-between items-center z-50">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-x-2 " >
+        <Link href="/" className="flex items-center gap-x-2 " >
           <Image
             src={logo}
             alt="Logo"
@@ -18,15 +19,15 @@ const Headerpage: NextPage = () => {
             className="aos-init aos-animate"
             data-aos="fade-right"
           />
-        </a>
+        </Link>
 
         {/* Navigation */}
         <nav className="hidden lg:flex items-center gap-8 aos-init aos-animate" data-aos="fade-down">
           <ul className="flex items-center gap-6 text-md font-medium">
             <li>
-              <a href="/" className="text-[#06b5c5]">
+              <Link href="/" className="text-[#06b5c5]">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="relative group">
               <button
@@ -42,51 +43,51 @@ const Headerpage: NextPage = () => {
                 className="absolute hidden group-hover:block bg-white shadow-lg left-0  right-0  flex justify-center rounded-md w-[30vw]  py-2 w-40 "
                 role="menu" data-state="open">
                 <li role="menuitem" className="px-4 py-2 hover:bg-gray-100">
-                  <a href="/react" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue ">
+                  <Link href="/react" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue ">
                   Executive Certificate Program (ECP) in Strategic Digital Marketing, AI Enablement & Analytics
-                  </a>
+                  </Link>
                 </li>
                 <li role="menuitem" className="px-4 py-2 hover:bg-gray-100">
-                  <a href="/next" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue ">
+                  <Link href="/next" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue ">
                   Digital Entrepreneurship Certificate Program (DECP)
-                  </a>
+                  </Link>
                 </li>
                 <li role="menuitem" className="px-4 py-2 hover:bg-gray-100">
-                  <a href="/more" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue">
+                  <Link href="/more" className="block px-4 py-2 rounded-md w-[30vw] hover:text-blue">
                   Certificate Program (CP) Digital Marketing & Analytics
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 Gurupool
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 Gallery
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 In News & Media
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="text-[#7A7C6C]">
+              <Link href="/" className="text-[#7A7C6C]">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
