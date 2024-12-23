@@ -12,7 +12,7 @@ import image2 from "@/../public/cardImage/10.webp";
 import image3 from "@/../public/cardImage/11.webp";
 import image4 from "@/../public/cardImage/fj.webp";
 import arrow from "@/../public/cardImage/arrow2.webp"
-import Advisory from "@/../public/cardImage/Advisory.webp"
+// import Advisory from "@/../public/cardImage/Advisory.webp"
 import newicon1 from "@/../public/cardImage/newicon1.webp"
 import newicon2 from "@/../public/cardImage/newicon2.webp"
 import newicon3 from "@/../public/cardImage/newicon3.webp"

@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import Image from "next/image";
 interface Card7PageProps {
     icon: React.ReactNode,
     heading: string,

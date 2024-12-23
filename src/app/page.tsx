@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import Headerpage from "./header/header";
 import Footerpage from "./footer/footer";
 import Homepage from "./home/home";
